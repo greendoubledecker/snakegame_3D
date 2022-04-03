@@ -1,7 +1,7 @@
 class Food{
   PVector pos;   
   Food(){
-    this.pos = new PVector(floor(random(-4, 4)) * 50, floor(random(-4, 4)) * 50, floor(random(-4, 4)) * 50);
+    this.pos = new PVector(floor(random(-50, 50)) * 10, floor(random(-50, 50)) * 10, floor(random(-50, 50)) * 10);
     //this.pos = new PVector(x, y, z);
   }
   
